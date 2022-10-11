@@ -8,16 +8,16 @@
 
     <!--Update this for shortest possible description-->
     <meta name="description"
-        content="Sub-Aperture Feature Adaptation in Single Image Super-resolution Model for Light Field Imaging." />
+        content="DiViScan: Generative Augmentation Driven Prediction of Diverse Visual Scanpaths in Images." />
 
     <!--This part is to give credit to the person who developed the site-->
     <meta name="author" content="Aniket Patra" />
 
     <!---------------------og tags are for open graph ----------------->
-    <meta property="og:title" content="LFSAFA-SR" />
+    <meta property="og:title" content="Diverse-Visual-Scanpath" />
 
-    <meta property="og:url" content="https://aupendu.github.io/LFSAFA-SR" />
-    <meta property="og:image" content="https://aupendu.github.io/assets/images/lfsafa_thumb.jpg" />
+    <meta property="og:url" content="https://ashishverma03.github.io/diverse-visual-scanpath" />
+    <meta property="og:image" content="https://ashishverma03.github.io/assets/images/diviscan_thumb.jpg" />
     <meta property="og:image:type" content="image/jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -25,18 +25,18 @@
 
     <meta property="og:type" content="article" />
     <meta property="og:description"
-        content="Sub-Aperture Feature Adaptation in Single Image Super-resolution Model for Light Field Imaging." />
+        content="DiViScan: Generative Augmentation Driven Prediction of Diverse Visual Scanpaths in Images." />
 
     <meta property="og:locale" content="en_IN" />
     <meta property="og:locale:alternate" content="en_US" />
 
     <!---------------TWITTER CRDS------------------------>
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="LFSAFA-SR" />
+    <meta name="twitter:title" content="Diverse-Visual-Scanpath" />
     <meta name="twitter:description"
-        content="Sub-Aperture Feature Adaptation in Single Image Super-resolution Model for Light Field Imaging." />
-    <meta name="twitter:url" content="https://aupendu.github.io/LFSAFA-SR" />
-    <meta name="twitter:image" content="https://aupendu.github.io/assets/images/lfsafa_thumb.jpg" />
+        content="DiViScan: Generative Augmentation Driven Prediction of Diverse Visual Scanpaths in Images." />
+    <meta name="twitter:url" content="https://ashishverma03.github.io/diverse-visual-scanpath" />
+    <meta name="twitter:image" content="https://ashishverma03.github.io/assets/images/diviscan_thumb.jpg" />
 
     <title>LFSAFA-SR</title>
 
@@ -50,7 +50,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!--Extrenal css-->
-    <link rel="stylesheet" href="lfsafa-sr/subpage.css" />
+    <link rel="stylesheet" href="diverse-visual-scanpath/subpage.css" />
 </head>
 
 <body>
@@ -59,7 +59,7 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="https://aupendu.github.io/"><i
+                    <a class="navbar-brand" href="https://ashishverma03.github.io/"><i
                             class="fas fa-house-user d-inline-block"></i></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -93,7 +93,7 @@
           font-family: 'Raleway', sans-serif;
           font-weight: bold;
         ">
-            Sub-Aperture Feature Adaptation in Single Image Super-resolution Model for Light Field Imaging
+            DiViScan: Generative Augmentation Driven Prediction of Diverse Visual Scanpaths in Images
         </h1>
 
         <!--Author Name-->
@@ -103,9 +103,9 @@
           font-size: calc(10px + 0.5vw);
           font-family: 'Roboto', sans-serif;
         ">
-            <a href="https://github.com/aupendu" target="_blank" style="text-decoration: none; color: rgb(70, 70, 70)"
-                onmouseover="this.style.color='gray'" onmouseout="this.style.color='rgb(70, 70, 70)'"><u>Aupendu
-                    Kar</u></a>, Suresh Nehra, Jayanta Mukhopadhyay, Prabir Kumar Biswas
+            <a href="https://github.com/ashishverma03" target="_blank" style="text-decoration: none; color: rgb(70, 70, 70)"
+                onmouseover="this.style.color='gray'" onmouseout="this.style.color='rgb(70, 70, 70)'"><u>Ashish
+                    Verma</u></a>, Debashis Sen
         </h2>
 
         <!--Institution Name-->
@@ -148,26 +148,24 @@
         <div class="row">
             <div class="col-sm">
                 <p style="text-align: justify">
-                    With the availability of commercial Light Field (LF) cam-
-                    eras, LF imaging has emerged as an up-and-coming tech-
-                    nology in computational photography. However, the spatial
-                    resolution is significantly constrained in commercial micro-
-                    lens-based LF cameras because of the inherent multiplexing
-                    of spatial and angular information. Therefore, it becomes the
-                    main bottleneck for other applications of light field cameras.
-                    This paper proposes an adaptation module in a pre-trained
-                    Single Image Super-Resolution (SISR) network to leverage
-                    the powerful SISR model instead of using highly engineered
-                    light field imaging domain-specific Super Resolution models.
-                    The adaption module consists of a Sub-aperture Shift block
-                    and a fusion block. It is an adaptation in the SISR network
-                    to further exploit the spatial and angular information in LF
-                    images to improve the super-resolution performance. Exper-
-                    imental validation shows that the proposed method outper-
-                    forms existing light field super-resolution algorithms. It also
-                    achieves PSNR gains of more than 1 dB across all the datasets
-                    as compared to the same pre-trained SISR models for scale
-                    factor 2, and PSNR gains 0.6 − 1 dB for scale factor 4.
+                    Multiple visual scanpaths in an image represent the process by
+                    which different humans capture the information in it. A deep 
+                    network for predicting such multiple diverse visual scanpaths 
+                    is proposed in this paper. Image-specific hidden Markov model 
+                    based generative data augmentation is performed in the beginning 
+                    to increase the number of image-visual scanpath training pairs. 
+                    Showing that our generative data augmentation is well-suited for 
+                    long short-term memory (LSTM) based prediction, an LSTM based visual 
+                    scanpath predictor is proposed. A network to predict a single visual 
+                    scanpath on an image is designed first. The network is then modified 
+                    to predict multiple diverse scanpaths representing different 
+                    viewer varieties by using a parameter indicating the uniqueness 
+                    of a viewer and a random vector for subtle variations. Our models 
+                    are evaluated on three standard datasets using multiple performance 
+                    measures, which demonstrate the superiority of the proposed approach 
+                    over the state-of-the-art. Empirical studies are also given indicating 
+                    the significance of our novel generative data augmentation and multiple 
+                    scanpath generation methods.
                 </p>
             </div>
         </div>
@@ -180,21 +178,19 @@
             <div class="col">
                 <ol type="i">
                     <li>
-                        We propose a light-field domain adaptation module to
-                        achieve LFSR using SISR models. To the best of our
-                        knowledge, this is the first work in this direction.
+                        An LSTM-based visual scanpath prediction network, 
+                        which is trained end-to-end without involving any 
+                        predefined model.
                     </li>
                     <li>
-                        We show that the proposed module can utilize angular
-                        information present in SA images to improve the per-
-                        formance, and ablation studies support our claims.
+                        The training is based on the uniqueness of a viewer 
+                        to generate multiple and distinct visual scanpaths 
+                        for an image.
                     </li>
                     <li>
-                        Our qualitative and quantitative analysis shows that the
-                        performance of our method is better than light-field
-                        domain-specific super-resolution solutions, and any
-                        SISR models can adopt our proposed modification to
-                        make it work for LFSR.
+                        A HMM-based generative data augmentation procedure 
+                        to obtain image-specific training pairs of images 
+                        & visual scanpaths.
                     </li>
                 </ol>
             </div>
