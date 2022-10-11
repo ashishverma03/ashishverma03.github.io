@@ -1,0 +1,102 @@
+/*Font import*/
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap");
+body {
+  background-color: rgb(245, 245, 245) !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h2 {
+  font-size: calc(
+    25px + 0.5vw
+  ); /*Change this (px part only) for Headings font*/
+  margin-top: 2% !important;
+}
+.headColor {
+  color: #527bbd;
+  font-family: "Heebo", sans-serif;
+}
+
+.fa-linkedin,
+.fa-twitter-square,
+.ai-google-scholar-square,
+.ai-researchgate-square,
+.ai-dblp-square,
+.ai-cv-square {
+  color: #527bbd !important;
+}
+
+.fa-linkedin:hover,
+.fa-twitter-square:hover,
+.ai-google-scholar-square:hover,
+.ai-researchgate-square:hover,
+.ai-dblp-square:hover,
+.ai-cv-square:hover {
+  color: rgb(110, 112, 114) !important;
+}
+
+.containerProperty {
+  background-color: white;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  border-radius: 2px;
+  padding-top: 5% !important;
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+  text-align: justify;
+  font-family: "Heebo", sans-serif;
+  font-size: calc(9px + 0.5vw); /*Change this (px part only) for content font*/
+}
+
+.subHead {
+  font-size: calc(
+    15px + 0.5vw
+  ); /*Change this (px part only) for subheading font size*/
+  font-weight: 600;
+}
+
+.timePeriod {
+  font-size: calc(10px + 0.5vw);
+  padding-left: 4%;
+}
+
+#flag {
+  height: 15px;
+  width: 19px;
+  margin-bottom: 5px;
+}
+
+footer {
+  color: rgb(187, 186, 186);
+  font-size: calc(8px + 0.5vw);
+
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
+
+footer a {
+  color: rgb(155, 155, 155);
+}
+
+footer a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.arrowUp {
+  font-size: calc(35px + 0.5vw);
+  color: gray;
+}
+
+.arrowUp:hover {
+  color: rgba(95, 95, 95);
+}
+
+@media only screen and (max-width: 480px) {
+  #flag {
+    height: 10px;
+    width: 13px;
+    margin-bottom: 5px;
+  }
+}
