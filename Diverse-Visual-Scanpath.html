@@ -36,7 +36,7 @@
     <meta name="twitter:description"
         content="DiViScan: Generative Augmentation Driven Prediction of Diverse Visual Scanpaths in Images." />
     <meta name="twitter:url" content="https://ashishverma03.github.io/diverse-visual-scanpath" />
-    <meta name="twitter:image" content="https://ashishverma03.github.io/assets/images/diviscan_thumb.jpg" />
+    <meta name="twitter:image" content="https://ashishverma03.github.io/assets/images/lfsafa_thumb.jpg" />
 
     <title>DiViScan</title>
 
@@ -196,32 +196,22 @@
         <hr />
         <!------------------------------Proposed module-------------------->
         <h2 id="headingStyles" class="text-center text-md-start">
-            <i class="fas fa-puzzle-piece"></i>&nbsp;Proposed Module
+            <i class="fas fa-puzzle-piece"></i>&nbsp;Proposed Architecture
         </h2>
         <div class="row ">
             <!-------------------------------FIGURE 2--------------------------->
             <div class="col d-flex justify-content-center">
                 <figure class="figure">
                     <span class="d-flex justify-content-center">
-                        <img class="img-fluid figure-img" src="assets/lfsafa-sr/teaser/fig2.jpg"
+                        <img class="img-fluid figure-img" src="assets/subpage-diverse-visual-scanpath/architecture/new_overall_model.jpg"
                             class="figure-img img-fluid rounded" title="Proposed sub-aperture feature adaptation module"
                             height="600" width="600"
-                            alt="proposed sub-aperture feature adaptation module image" /></a></span>
+                            alt="proposed architecture image" /></a></span>
                     <figcaption class="text-center" id="figCap">
-                        The proposed sub-aperture feature adaptation module
-                        consists of <i>n</i> SAS modules and 1 fusion module. <i>f</i><sub>i</sub> is the
-                        extracted feature of a sub-aperture image using a pre-trained
-                        model <i>F</i><sub>feat</sub> and <i>f'</i><sub>i</sub> is the modulated feature that contains
-                        more rich features that are acquired from other sub-aperture
-                        images. '<i>Conv, a, b, k</i>' represents 2D convolution with <i>a</i>
-                        number of input channels, <i>b</i> number of output channels, and
-                        <i>k</i> is the kernel size.
-                        ule <i>F</i><sub>feat</sub>, and another one is upscaling cum reconstruction
-                        module <i>F</i><sub>up</sub>. <i>F</i><sub>feat</sub> extracts the salient features from a
-                        single
-                        image that is up-scaled by <i>F</i><sub>up</sub>. Our main objective is to in-
-                        troduce a module that modulates the extracted features from
-                        <i>F</i><sub>feat</sub> by exploiting angular information across SAIs.
+                        The architecture of the proposed model for visual scanpath 
+                        prediction comprises of two main novel components: augmentation
+                        of image-visual scanpath pairs using HMM and the LSTM-based 
+                        scanpath predictor.
                         <!--EDIT CAPTION HERE-->
                     </figcaption>
                 </figure>
