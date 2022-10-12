@@ -1,7 +1,7 @@
 $(document).ready(
     $("#mailTo").click(function () {
-        const part2 = "kar";
-        const part1 = "aupendu";
+        const part2 = "verma";
+        const part1 = "ashish";
         const part3 = Math.pow(2, 6);
         const part6 = ".ac.in";
         const part5 = "iitkgp";
