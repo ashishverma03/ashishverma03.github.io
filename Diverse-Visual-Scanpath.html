@@ -34,7 +34,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Diverse-Visual-Scanpath" />
     <meta name="twitter:description"
-        content="DiViScan: Generative Augmentation Driven Prediction of Diverse Visual Scanpaths in Images." />
+        content="Generative Augmentation Driven Prediction of Diverse Visual Scanpaths in Images." />
     <meta name="twitter:url" content="https://ashishverma03.github.io/diverse-visual-scanpath" />
     <meta name="twitter:image" content="https://ashishverma03.github.io/assets/images/lfsafa_thumb.jpg" />
 
@@ -87,7 +87,7 @@
           font-family: 'Raleway', sans-serif;
           font-weight: bold;
         ">
-            DiViScan: Generative Augmentation Driven Prediction of Diverse Visual Scanpaths in Images
+            Generative Augmentation Driven Prediction of Diverse Visual Scanpaths in Images
         </h1>
 
         <!--Author Name-->
@@ -121,24 +121,28 @@
         <div class="row">
             <div class="col-sm">
                 <p style="text-align: justify">
-                    Multiple visual scanpaths in an image represent the process by
-                    which different humans capture the information in it. A deep 
-                    network for predicting such multiple diverse visual scanpaths 
-                    is proposed in this paper. Image-specific hidden Markov model 
-                    based generative data augmentation is performed in the beginning 
-                    to increase the number of image-visual scanpath training pairs. 
-                    Showing that our generative data augmentation is well-suited for 
-                    long short-term memory (LSTM) based prediction, an LSTM based visual 
-                    scanpath predictor is proposed. A network to predict a single visual 
-                    scanpath on an image is designed first. The network is then modified 
-                    to predict multiple diverse scanpaths representing different 
-                    viewer varieties by using a parameter indicating the uniqueness 
-                    of a viewer and a random vector for subtle variations. Our models 
-                    are evaluated on three standard datasets using multiple performance 
-                    measures, which demonstrate the superiority of the proposed approach 
-                    over the state-of-the-art. Empirical studies are also given indicating 
-                    the significance of our novel generative data augmentation and multiple 
-                    scanpath generation methods.
+                    Visual scanpaths of multiple humans on an image represent the process
+                    by which they capture the information in it. State-of-the-art models 
+                    to predict visual scanpaths on images learn directly from recorded 
+                    human visual scanpaths. However, the generation of multiple visual
+                    scanpaths on an image having diversity like human visual scanpaths
+                    has not been explicitly considered. In this paper, we propose a deep
+                    network for predicting multiple diverse visual scanpaths on an image.
+                    Image-specific hidden Markov model based generative data augmentation
+                    is performed in the beginning to increase the number of image-visual
+                    scanpath training pairs. Considering a similarity between our generative
+                    data augmentation process and the use of long short-term memory (LSTM)
+                    for prediction, we propose an LSTM based visual scanpath predictor.
+                    A network to predict a single visual scanpath on an image is designed first.
+                    The network is then modified to predict multiple diverse visual scanpaths
+                    representing different viewer varieties by using a parameter indicating the
+                    uniqueness of a viewer. A random vector is also employed for subtle variations
+                    within scanpaths of the same viewer variety. Our models are evaluated on three
+                    standard datasets using multiple performance measures, which demonstrate the
+                    superiority of the proposed approach over the state-of-the-art. Empirical
+                    studies are also given indicating the significance of our generative data
+                    augmentation method and our multiple scanpath prediction strategy producing
+                    diverse visual scanpaths.
                 </p>
             </div>
         </div>
@@ -151,19 +155,17 @@
             <div class="col">
                 <ol type="i">
                     <li>
-                        A novel visual scanpath predictor network for images, 
-                        which is trained end-to-end, driven by generative data 
-                        augmentation.
+                        A visual scanpath predictor network for images, which is
+                        trained end-to-end, driven by generative data augmentation.
                     </li>
                     <li>
-                        A novel training strategy based on the uniqueness of a
-                        viewer to generate multiple and diverse visual 
-                        scanpaths of different viewer varieties for an image.
+                        A HMM-based generative data augmentation procedure to obtain
+                        image-specific training pairs of images & visual scanpaths.
                     </li>
                     <li>
-                        A novel HMM-based generative data augmentation procedure
-                        to obtain image-specific training pairs of images & visual 
-                        scanpaths.
+                        A training strategy based on the uniqueness of a viewer to 
+                        generate multiple and diverse visual scanpaths of different 
+                        viewer varieties for an image.
                     </li>
                 </ol>
             </div>
